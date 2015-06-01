@@ -1,0 +1,42 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.phoneinfo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+    
+	<!-- 获取MAC地址权限   -->
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<!-- 获取手机信息权限   -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 获取访问网络状态的权限  -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <!-- 往SDCard写入数据权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!-- 读数据权限  -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <!-- 网络访问权限   -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"  >
+        
+        <meta-data 
+            android:name="RSA_PRIVATE" 
+            android:value="MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKIjTlaGRr/+7s2X4Q4vp9bHJw+bDeerI/n7wR3qEGzNE9fOVz6rplOgl0Er/MN6g3i16D3LVox9zZGUNCRhGKVmPtxym+ka5DXMb+QZGAP5/L9oDEEjaSnYQtBza96gVpyWnVTDVyO3Ty9NawZVIHpumCWrh2enWNH2gqblY6DpAgMBAAECgYB006fApKQZ96EuNr+NLz1qfrlgf0L3qNMVbxdpbJxFKUeg+ibXG2uPWmliJkXMvFw7ACfFTtygAo261eT0SZotfY0MKOBbTPRLZ+NL1gR6CnE2mQ1fb043ldzzP9C6KCiLqWSj6EQj0CSAsSALbxYAb7UbcrA60SZZGBSnMtnLWQJBANahccwj13/el66xHU/JcJGc8HRJZMY+np99foABjDXNEulmho4J8X2r4yadk9XSumDHuZSn/a3Ovu1sb8Zu6nMCQQDBY7Q88qx4qiCi1Pjvqmkg0YSVLBVsf829TjBH8V0+MCHfLJtJkNSnVvDT+TF9ri9lbFn2QrCP6sxRqs2z8mQzAkALxFQh1gE1kHWObUVnH2sdgJYqOe/dcodtxQqPaAZQ2Mplo2pTFTZ5JlhQwKjfOyterPR+susUgVY0XBKQtXoDAkEAvHPkl+ADojJnS0Yur55og8qoYJVs6yY/31HqSrEyI//Tgh9909qG3+shE++qAsdS+Ir1v7yNQjGUmaDQg6KZcQJBAMFj/jW+KecOMakKDKIb0CaT7aIIbKh31WWQnZpTGmFq9vch3jWFw2hjqezzxjeTKyEcHbNWsG2WpZtmjxQLoes="/>
+        
+    </application>
+
+</manifest>

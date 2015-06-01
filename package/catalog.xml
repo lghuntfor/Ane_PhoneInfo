@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.6.0" build="23201" minimumSupportedVersion="3.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-files />
+  </features>
+  <libraries>
+    <library path="library.swf">
+      <script name="_c3b29988a39e34b7b00c9e1b9c60e29bef3a6cdc12e18797d166bbf70d9a9e47_flash_display_Sprite" mod="1432799504012" signatureChecksum="702774139" >
+        <def id="_c3b29988a39e34b7b00c9e1b9c60e29bef3a6cdc12e18797d166bbf70d9a9e47_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/xkw/ane/phone/Settings" mod="1420170839632" signatureChecksum="2902399254" >
+        <def id="com.xkw.ane.phone:Settings" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/xkw/ane/phone/PhoneInfo" mod="1432799257656" signatureChecksum="4194808747" >
+        <def id="com.xkw.ane.phone:PhoneInfo" /> 
+        <dep id="flash.external:ExtensionContext" type="e" /> 
+        <dep id="flash.external:ExtensionContext" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <digests>
+        <digest type="SHA-256" signed="false" value="b7908e8b8599ff4a63d5666360103cd3fecfab4d8187118558533fdfa5153575"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>
